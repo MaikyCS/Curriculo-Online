@@ -1,0 +1,116 @@
+h1 {
+    color: #e70b0b;
+}
+p{ 
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18pt
+}
+h1{
+    font-family: arial black;
+}
+h2{
+    color: red;
+}
+p,h3{
+    color: blue;
+}
+html{background-color: rgb(5, 5, 5);}
+li, p {
+    border: 2px solid #f00;
+    border-radius: 1rem;
+    padding: 2rem;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    padding: 1rem;
+}
+form {
+    width: 100%;
+    max-width: 30rem;
+}
+
+label,
+input,
+textarea,
+button {
+    display: block;
+}
+
+input,
+textarea,
+button {
+    width: 100%;
+    font: inherit;
+    padding: 1.25rem;
+    font-weight: 700;
+}
+
+input,
+textarea {
+    margin-bottom: 1rem;
+    color: white;
+    background: #323644;
+    border: 0.125rem solid transparent;
+    border-radius: 1.125rem;
+    transition: border color 0.3s;
+    box-shadow: 0.3s;
+}
+
+input:hover,
+input:focus,
+textarea:hover,
+textarea:focus {
+    outline: none;
+    outline-color: #1d90f5;
+    box-shadow: 0 0 0 0.1500rem #1d90f5;
+}
+
+label {
+    margin-bottom: 0.5rem;
+    color: #e70b0b;
+}
+
+textarea {
+    min-height: 12.5rem;
+    resize: vertical;
+}
+
+button {
+    border: none;
+    border-radius: 99px;
+    color: white;
+    background: #1d90f5;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover,
+button:focus {
+    outline: none;
+    background: #1c70d3;
+}
+
+button:disabled {
+    cursor: not-allowed;
+    background: #555b69;
+}
+
+.success,
+.error {
+    text-align: center;
+}
+
+.success {
+    color: greenyellow;
+}
+
+.error {
+    color: tomato ;
+}
